@@ -110,7 +110,7 @@ source "~/.zsh/spaceship-zig/spaceship-zig.plugin.zsh"
 
 ## Usage
 
-After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
+After installing, add the following line to your `.zshrc` in order to include Zig section in the prompt:
 
 ```zsh
 spaceship add zig
