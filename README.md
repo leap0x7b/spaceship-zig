@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Zig version, through zig (`😍`).
+Current Zig version, through zig (`⚡`).
 
 ## Installing
 
