@@ -1,20 +1,20 @@
 <h1 align="center">
-  😍 + 🚀
-  <br>Spaceship Section<br>
+  ⚡ + 🚀
+  <br>Spaceship Zig<br>
 </h1>
 
 <h4 align="center">
-  A <a href="https://template.com" target="_blank">Foobar</a> section for Spaceship prompt
+  A <a href="https://ziglang.org" target="_blank">Zig</a> section for Spaceship prompt
 </h4>
 
 <p align="center">
-  <a href="https://github.com/spaceship-prompt/spaceship-section/releases">
-    <img src="https://img.shields.io/github/v/release/spaceship-prompt/spaceship-section.svg?style=flat-square"
+  <a href="https://github.com/leap0x7b/spaceship-zig/releases">
+    <img src="https://img.shields.io/github/v/release/leap0x7b/spaceship-zig.svg?style=flat-square"
       alt="GitHub Release" />
   </a>
 
-  <a href="https://github.com/spaceship-prompt/spaceship-section/actions">
-    <img src="https://img.shields.io/github/workflow/status/spaceship-prompt/spaceship-section/ci?style=flat-square"
+  <a href="https://github.com/leap0x7b/spaceship-zig/actions">
+    <img src="https://img.shields.io/github/workflow/status/leap0x7b/spaceship-zig/ci?style=flat-square"
       alt="GitHub Workflow Status" />
   </a>
 
@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Foobar version, through foobar (`😍`).
+Current Zig version, through zig (`😍`).
 
 ## Installing
 
@@ -42,70 +42,70 @@ You need to source this plugin somewhere in your dotfiles. Here's how to do it w
 Execute this command to clone this repo into Oh-My-Zsh plugin's folder:
 
 ```zsh
-git clone https://github.com/spaceship-prompt/spaceship-section.git $ZSH_CUSTOM/plugins/spaceship-section
+git clone https://github.com/leap0x7b/spaceship-zig.git $ZSH_CUSTOM/plugins/spaceship-zig
 ```
 
-Include `spaceship-section` in Oh-My-Zsh plugins list:
+Include `spaceship-zig` in Oh-My-Zsh plugins list:
 
 ```zsh
-plugins=($plugins spaceship-section)
+plugins=($plugins spaceship-zig)
 ```
 
 ### [zplug]
 
 ```zsh
-zplug "spaceship-prompt/spaceship-section"
+zplug "leap0x7b/spaceship-zig"
 ```
 
 ### [antigen]
 
 ```zsh
-antigen bundle "spaceship-prompt/spaceship-section"
+antigen bundle "leap0x7b/spaceship-zig"
 ```
 
 ### [antibody]
 
 ```zsh
-antibody bundle "spaceship-prompt/spaceship-section"
+antibody bundle "leap0x7b/spaceship-zig"
 ```
 
 ### [zinit]
 
 ```zsh
-zinit light "spaceship-prompt/spaceship-section"
+zinit light "leap0x7b/spaceship-zig"
 ```
 
 ### [zgen]
 
 ```zsh
-zgen load "spaceship-prompt/spaceship-section"
+zgen load "leap0x7b/spaceship-zig"
 ```
 
 ### [sheldon]
 
 ```toml
-[plugins.spaceship-section]
-github = "spaceship-prompt/spaceship-section"
+[plugins.spaceship-zig]
+github = "leap0x7b/spaceship-zig"
 ```
 
 ### Manual
 
 If none of the above methods works for you, you can install Spaceship manually.
 
-1. Clone this repo somewhere, for example to `$HOME/.zsh/spaceship-section`.
+1. Clone this repo somewhere, for example to `$HOME/.zsh/spaceship-zig`.
 2. Source this section in your `~/.zshrc`.
 
 ### Example
 
 ```zsh
 mkdir -p "$HOME/.zsh"
-git clone --depth=1 https://github.com/spaceship-prompt/spaceship-section.git "$HOME/.zsh/spaceship-section"
+git clone --depth=1 https://github.com/leap0x7b/spaceship-zig.git "$HOME/.zsh/spaceship-zig"
 ```
 
 For initializing prompt system add this to your `.zshrc`:
 
 ```zsh title=".zshrc"
-source "~/.zsh/spaceship-section/spaceship-section.plugin.zsh"
+source "~/.zsh/spaceship-zig/spaceship-zig.plugin.zsh"
 ```
 
 ## Usage
@@ -113,20 +113,20 @@ source "~/.zsh/spaceship-section/spaceship-section.plugin.zsh"
 After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
 
 ```zsh
-spaceship add foobar
+spaceship add zig
 ```
 
 ## Options
 
-This section is shown only in directories within a foobar context.
+This section is shown only in directories within a zig context.
 
-| Variable                   |              Default               | Meaning                              |
-| :------------------------- | :--------------------------------: | ------------------------------------ |
-| `SPACESHIP_FOOBAR_SHOW`   |               `true`               | Show current section                 |
-| `SPACESHIP_FOOBAR_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
-| `SPACESHIP_FOOBAR_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
-| `SPACESHIP_FOOBAR_SYMBOL` |               `😍·`                | Character to be shown before version |
-| `SPACESHIP_FOOBAR_COLOR`  |             `yellow`               | Color of section                     |
+| Variable               |              Default               | Meaning                              |
+| :--------------------- | :--------------------------------: | ------------------------------------ |
+| `SPACESHIP_ZIG_SHOW`   |               `true`               | Show current section                 |
+| `SPACESHIP_ZIG_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
+| `SPACESHIP_ZIG_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
+| `SPACESHIP_ZIG_SYMBOL` |               `⚡·`                | Character to be shown before version |
+| `SPACESHIP_ZIG_COLOR`  |             `yellow`               | Color of section                     |
 
 ## Contributing
 
@@ -136,7 +136,7 @@ Contribute to this repo by submitting a pull request. Please use [conventional c
 
 ## License
 
-MIT © [Name Surname](http://yourwebsite.com)
+MIT © leap123
 
 <!-- References -->
 
